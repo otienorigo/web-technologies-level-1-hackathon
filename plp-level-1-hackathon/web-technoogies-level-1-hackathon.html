@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rigo Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styles specific to this project */
+        .hero-section {
+            background-color: #f4f4f4;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3em;
+            color: #333;
+        }
+
+        .about-section {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .about-section p {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .portfolio-section {
+            background-color: #f9f9f9;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .portfolio-item {
+            margin-bottom: 40px;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .portfolio-item h3 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .contact-section {
+            background-color: #e6e6e6;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .contact-form input[type="text"], .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero-section">
+        <h1>Welcome to My Creative Portfolio</h1>
+        <p>Explore my work, get in touch, and let's create something amazing together!</p>
+    </header>
+
+    <section class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer with a love for design. I specialize in creating beautiful and functional websites that leave a lasting impression.I do Marketing although I am still at my begginer level. i would love to indulge into any creative project so feel free to Holla at Me!</p>
+        </div>
+    </section>
+
+    <section class="portfolio-section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="https://images.pexels.com/photos/821749/pexels-photo-821749.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A visually stunning website designed to showcase photography.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.pexels.com/photos/4050348/pexels-photo-4050348.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>An e-commerce platform with a sleek and intuitive user interface.</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <form action="/submit-form" method="post">
+                    <input type="text" name="name" placeholder="Reagan Otieno Yiembe">
+                    <input type="text" name="email" placeholder="otienoreagan215@gmail.com">
+                    <textarea name="message" placeholder="Thank You For Your Support"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Creative Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
